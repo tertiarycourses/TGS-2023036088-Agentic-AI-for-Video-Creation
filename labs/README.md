@@ -1,22 +1,22 @@
-# Labs Index
+# Hands-On Labs - Agentic AI for Video Creation
 
-Complete the labs in order. Each lab includes design notes, configuration steps, validation, and review questions.
+All eight labs form one connected production journey from evidence-backed research to controlled YouTube release and performance learning. Complete them in order. Every folder is self-contained with an importable n8n workflow, mock Excel data, an instruction-and-prompts PDF, starter notes, expected output and an evidence checklist.
 
-| Lab | Title |
-| --- | --- |
-| [Lab 01](lab-01-enterprise-architecture-virtualization-design.md) | Enterprise Architecture, Virtualization, and Design |
-| [Lab 02](lab-02-campus-switching-vlans-stp-etherchannel.md) | Campus Switching, VLANs, STP, and EtherChannel |
-| [Lab 03](lab-03-layer3-switching-ospf-eigrp.md) | Layer 3 Switching, OSPF, and EIGRP |
-| [Lab 04](lab-04-bgp-fhrp-nat-qos.md) | BGP Fundamentals, FHRP, NAT, and QoS |
-| [Lab 05](lab-05-enterprise-security-acls-aaa-device-hardening.md) | Enterprise Security, ACLs, AAA, and Device Hardening |
-| [Lab 06](lab-06-wireless-enterprise-wlc-roaming-security.md) | Enterprise Wireless, WLC, Roaming, and Security |
-| [Lab 07](lab-07-network-assurance-telemetry-troubleshooting.md) | Network Assurance, Telemetry, and Troubleshooting |
-| [Lab 08](lab-08-automation-controller-apis-exam-review.md) | Automation, Controller-Based Networking, APIs, and Exam Review |
+| # | Lab | Alignment | Primary output |
+|---:|---|---|---|
+| 1 | [Create the Video Production Contract and Research Backlog](lab-01-production-contract-and-research-backlog/README.md) | Topic 1 | `production-contract.json and research-backlog.xlsx` |
+| 2 | [Run Evidence Research and Build the Claim Register](lab-02-evidence-research-and-claim-register/README.md) | Topic 1 | `source-register.xlsx and claim-register.json` |
+| 3 | [Generate the Script, Storyboard and Video Prompts](lab-03-research-to-script-storyboard/README.md) | Topic 1 | `script-storyboard.json, captions-draft.vtt and prompt-pack.pdf` |
+| 4 | [Build the Generative Video, Voice and Music Asset Pack](lab-04-generative-asset-request-pack/README.md) | Topic 2 | `asset-requests.json, continuity-bible.json and asset-manifest.xlsx` |
+| 5 | [Assemble and Probe the Captioned Vertical Video](lab-05-assemble-captioned-vertical-video/README.md) | Topic 2 | `vertical-master-v1.mp4, captions.vtt, edit-decision-list.xlsx and ffprobe.json` |
+| 6 | [Run Quality Review and Human-in-the-Loop Approval](lab-06-quality-review-and-human-approval/README.md) | Topic 2 | `review-register.xlsx, repair-log.json and approval-ledger.json` |
+| 7 | [Orchestrate the End-to-End SocialPost and YouTube Release](lab-07-end-to-end-socialpost-youtube-release/README.md) | Topic 3 | `end-to-end-workflow.json, publishing-queue.xlsx and socialpost-request-preview.json` |
+| 8 | [Analyse Performance and Build the Scaling Control Plan](lab-08-analytics-feedback-and-scaling-control/README.md) | Topic 3 | `performance-analysis.xlsx, next-test.json and scaling-scorecard.xlsx` |
 
-## Lab Rules
+## Connected workflow
 
-1. Save topology snapshots before major configuration changes.
-2. Record verification output before and after changes.
-3. Document unsupported simulator features as concepts instead of skipping them silently.
-4. Troubleshoot with evidence and one change at a time.
-5. Save final running configurations after every lab.
+`contract -> research -> script/storyboard -> generative assets -> assembly -> QA/human approval -> SocialPost/YouTube dry-run -> analytics/scale decision`
+
+## Safety boundary
+
+The supplied files contain no live credentials. External publishing remains dry-run/private for learners. A trainer may demonstrate a live private upload only after confirming the correct account, rights, consent, synthetic-media disclosure, and exact payload approval.

@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.*
+.claude/
+.codex/
+assessment/
+reference/
+build/
+courseware/archive/
+**/__pycache__/
+**/*.pyc
+labs/**/evidence/output/

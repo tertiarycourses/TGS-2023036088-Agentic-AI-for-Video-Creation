@@ -1,0 +1,175 @@
+{
+  "name": "TGS-2023036088 Lab 05 - Assemble and Probe the Captioned Vertical Video",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "389e2289487a",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        240,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "for (const i of items) { i.json.processed=true; i.json.processed_at=new Date().toISOString(); } return items;"
+      },
+      "id": "0d49577e2713",
+      "name": "Approved Asset Manifest",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        470,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "for (const i of items) { i.json.processed=true; i.json.processed_at=new Date().toISOString(); } return items;"
+      },
+      "id": "c6f61b463807",
+      "name": "Build FFmpeg Plan",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        700,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "for (const i of items) { i.json.processed=true; i.json.processed_at=new Date().toISOString(); } return items;"
+      },
+      "id": "9cc3b5ef9abb",
+      "name": "Run Assembly Adapter",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        930,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "for (const i of items) { i.json.processed=true; i.json.processed_at=new Date().toISOString(); } return items;"
+      },
+      "id": "b6cd20b93a71",
+      "name": "FFprobe Master",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        1160,
+        320
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "4501b8521f18",
+      "name": "Technical Gate",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1390,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## Lab 05: Assemble and Probe the Captioned Vertical Video\n\n**Input:** data/mock-data.xlsx\n\n**Output:** vertical-master-v1.mp4, captions.vtt, edit-decision-list.xlsx and ffprobe.json\n\n**Acceptance:** ffprobe reports one H.264 video stream, one AAC audio stream, 1080x1920, 30 fps and duration from 29.5 to 30.5 seconds.\n\nTRAINING SAFETY: synthetic data; credentials remain in n8n; external publishing stays dry-run/private until trainer authorization.",
+        "height": 180,
+        "width": 1100
+      },
+      "id": "08dbaf21d725",
+      "name": "Lab Contract",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        240,
+        80
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Approved Asset Manifest",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Approved Asset Manifest": {
+      "main": [
+        [
+          {
+            "node": "Build FFmpeg Plan",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build FFmpeg Plan": {
+      "main": [
+        [
+          {
+            "node": "Run Assembly Adapter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Assembly Adapter": {
+      "main": [
+        [
+          {
+            "node": "FFprobe Master",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "FFprobe Master": {
+      "main": [
+        [
+          {
+            "node": "Technical Gate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "saveExecutionProgress": true
+  },
+  "versionId": "71c5abb468bf28b4d71e2e896ce36d86",
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "courseCode": "TGS-2023036088",
+    "dryRunOnly": true
+  },
+  "tags": [
+    {
+      "name": "TGS-2023036088"
+    },
+    {
+      "name": "agentic-video"
+    },
+    {
+      "name": "lab-05"
+    }
+  ]
+}

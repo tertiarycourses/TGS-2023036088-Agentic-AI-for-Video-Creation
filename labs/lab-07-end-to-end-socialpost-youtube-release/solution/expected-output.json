@@ -1,0 +1,8 @@
+{
+  "course_code": "TGS-2023036088",
+  "lab_id": 7,
+  "status": "PASS",
+  "deliverable": "end-to-end-workflow.json, publishing-queue.xlsx and socialpost-request-preview.json",
+  "acceptance": "The n8n run reaches DRY_RUN_ACCEPTED once, records the SocialPost payload, blocks the duplicate key, and does not expose a credential or publish publicly.",
+  "dry_run": true
+}

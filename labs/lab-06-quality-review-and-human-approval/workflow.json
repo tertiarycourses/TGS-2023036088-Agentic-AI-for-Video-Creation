@@ -1,0 +1,178 @@
+{
+  "name": "TGS-2023036088 Lab 06 - Run Quality Review and Human-in-the-Loop Approval",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "389e2289487a",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        240,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "for (const i of items) { i.json.processed=true; i.json.processed_at=new Date().toISOString(); } return items;"
+      },
+      "id": "06c54f97d998",
+      "name": "QA Evidence",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        470,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "for (const i of items) { const j=i.json; j.score=Number(j.score ?? 0.82); j.status=j.score>=0.65?'PASS':'REVIEW'; } return items;"
+      },
+      "id": "155780d8f3bd",
+      "name": "Score Review",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        700,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const crypto=require('crypto'); for (const i of items) { const j=i.json; const payload={asset_id:j.asset_id,title:j.title,user:j.user,platform:j.platform||'youtube',privacy:j.privacy||'private',synthetic_media:Boolean(j.synthetic_media)}; j.payload_hash=crypto.createHash('sha256').update(JSON.stringify(payload)).digest('hex'); j.approval_status='PENDING_HUMAN'; } return items;"
+      },
+      "id": "7dbe71530930",
+      "name": "Create Approval Hash",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        930,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "resume": "webhook",
+        "options": {}
+      },
+      "id": "c2f9677e7928",
+      "name": "Wait for Human Decision",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1,
+      "position": [
+        1160,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const crypto=require('crypto'); for (const i of items) { const j=i.json; const payload={asset_id:j.asset_id,title:j.title,user:j.user,platform:j.platform||'youtube',privacy:j.privacy||'private',synthetic_media:Boolean(j.synthetic_media)}; const current=crypto.createHash('sha256').update(JSON.stringify(payload)).digest('hex'); const decision=String(j.decision||'').toUpperCase(); j.current_payload_hash=current; j.approval_status=(decision==='APPROVE'&&j.reviewer&&j.payload_hash===current)?'APPROVED':'BLOCKED'; j.release_allowed=j.approval_status==='APPROVED'; } return items;"
+      },
+      "id": "ca45327f096e",
+      "name": "Verify Hash and Route",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        1390,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## Lab 06: Run Quality Review and Human-in-the-Loop Approval\n\n**Input:** data/mock-data.xlsx\n\n**Output:** review-register.xlsx, repair-log.json and approval-ledger.json\n\n**Acceptance:** No high-severity finding remains open; reviewer, timestamp, decision and payload_hash are recorded; the hash is rechecked immediately before release.\n\nTRAINING SAFETY: synthetic data; credentials remain in n8n; external publishing stays dry-run/private until trainer authorization.",
+        "height": 180,
+        "width": 1100
+      },
+      "id": "08dbaf21d725",
+      "name": "Lab Contract",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        240,
+        80
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "QA Evidence",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "QA Evidence": {
+      "main": [
+        [
+          {
+            "node": "Score Review",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Score Review": {
+      "main": [
+        [
+          {
+            "node": "Create Approval Hash",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Approval Hash": {
+      "main": [
+        [
+          {
+            "node": "Wait for Human Decision",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait for Human Decision": {
+      "main": [
+        [
+          {
+            "node": "Verify Hash and Route",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "saveExecutionProgress": true
+  },
+  "versionId": "d637c406b30b666609d157102ad87358",
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "courseCode": "TGS-2023036088",
+    "dryRunOnly": true
+  },
+  "tags": [
+    {
+      "name": "TGS-2023036088"
+    },
+    {
+      "name": "agentic-video"
+    },
+    {
+      "name": "lab-06"
+    }
+  ]
+}

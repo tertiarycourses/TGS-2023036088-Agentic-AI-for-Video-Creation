@@ -1,0 +1,175 @@
+{
+  "name": "TGS-2023036088 Lab 04 - Build the Generative Video, Voice and Music Asset Pack",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "389e2289487a",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        240,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "for (const i of items) { i.json.processed=true; i.json.processed_at=new Date().toISOString(); } return items;"
+      },
+      "id": "de11ef761fa5",
+      "name": "Approved Storyboard",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        470,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "for (const i of items) { i.json.processed=true; i.json.processed_at=new Date().toISOString(); } return items;"
+      },
+      "id": "19a6be0deb77",
+      "name": "Create Shot Requests",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        700,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "for (const i of items) { i.json.processed=true; i.json.processed_at=new Date().toISOString(); } return items;"
+      },
+      "id": "2c7a67a160fd",
+      "name": "Create Voice Request",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        930,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "for (const i of items) { i.json.processed=true; i.json.processed_at=new Date().toISOString(); } return items;"
+      },
+      "id": "4c1d22453ce9",
+      "name": "Create Music Brief",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        1160,
+        320
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "8a93182fe2e9",
+      "name": "Asset Manifest Gate",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1390,
+        320
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## Lab 04: Build the Generative Video, Voice and Music Asset Pack\n\n**Input:** data/mock-data.xlsx\n\n**Output:** asset-requests.json, continuity-bible.json and asset-manifest.xlsx\n\n**Acceptance:** Every storyboard beat has a registered asset or fallback, rights_status is not UNKNOWN, and total requested duration covers the timeline.\n\nTRAINING SAFETY: synthetic data; credentials remain in n8n; external publishing stays dry-run/private until trainer authorization.",
+        "height": 180,
+        "width": 1100
+      },
+      "id": "08dbaf21d725",
+      "name": "Lab Contract",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        240,
+        80
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Approved Storyboard",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Approved Storyboard": {
+      "main": [
+        [
+          {
+            "node": "Create Shot Requests",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Shot Requests": {
+      "main": [
+        [
+          {
+            "node": "Create Voice Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Voice Request": {
+      "main": [
+        [
+          {
+            "node": "Create Music Brief",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Music Brief": {
+      "main": [
+        [
+          {
+            "node": "Asset Manifest Gate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "saveExecutionProgress": true
+  },
+  "versionId": "ee5c81bda7f59bdf8ced361d1a6b7083",
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "courseCode": "TGS-2023036088",
+    "dryRunOnly": true
+  },
+  "tags": [
+    {
+      "name": "TGS-2023036088"
+    },
+    {
+      "name": "agentic-video"
+    },
+    {
+      "name": "lab-04"
+    }
+  ]
+}

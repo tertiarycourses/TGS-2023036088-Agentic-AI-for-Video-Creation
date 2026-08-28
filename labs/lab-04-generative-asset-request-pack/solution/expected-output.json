@@ -1,0 +1,8 @@
+{
+  "course_code": "TGS-2023036088",
+  "lab_id": 4,
+  "status": "PASS",
+  "deliverable": "asset-requests.json, continuity-bible.json and asset-manifest.xlsx",
+  "acceptance": "Every storyboard beat has a registered asset or fallback, rights_status is not UNKNOWN, and total requested duration covers the timeline.",
+  "dry_run": true
+}

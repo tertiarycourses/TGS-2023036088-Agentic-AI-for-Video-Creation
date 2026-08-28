@@ -1,69 +1,97 @@
-# TGS-2024044052 - Cisco Certified Network Professional (CCNP) for ENCOR Training
+# Agentic AI for Video Creation
 
-> Course: Cisco Certified Network Professional (CCNP) for ENCOR Training  
-> Course Code: TGS-2024044052  
-> Register here: https://www.tertiarycourses.com.sg/wsq-cisco-certified-network-professional-ccnp-for-encor-training.html
+Build a governed, end-to-end agentic video-production workflow—from evidence-backed research and generative content to human approval, SocialPost/YouTube release, and performance feedback.
 
-Hands-on Cisco Certified Network Professional ENCOR labs for learners preparing for enterprise networking scenarios. The labs cover enterprise architecture, virtualization concepts, VLANs, trunks, STP, EtherChannel, Layer 3 switching, OSPF, EIGRP, BGP fundamentals, first-hop redundancy, NAT, QoS, security, wireless, network assurance, troubleshooting, controller-based networking, REST APIs, JSON, and automation workflows.
+| Course detail | Information |
+|---|---|
+| Course code | `TGS-2023036088` |
+| Programme | WSQ |
+| TSC | `MED-MPN-4005-1.1 — Video Editing-4` |
+| Duration | 2 days / 16 training hours, plus 2 hours of assessment |
+| Registration | [View course details and register](https://www.tertiarycourses.com.sg/wsq-agentic-ai-for-video-creation.html) |
+| Funding | Up to 70% course-fee support may apply. Eligibility and terms apply; verify the current course page before enrolment. |
+| Courseware version | v2.0 — 29 August 2026 |
 
-## Courseware
+## About the course
 
-| File | Description |
-| --- | --- |
-| [Learner Guide](LG-Cisco-Certified-Network-Professional-CCNP-ENCOR.md) | Detailed step-by-step guide for the full course. |
-| [Labs Index](labs/README.md) | Quick access to all hands-on labs. |
-| [Tools Reference](labs/tools.md) | Free tools and command references used in the labs. |
+This technical course treats video creation as a controlled production system rather than a chain of unverified prompts. Learners use n8n to preserve evidence and state across research, scripting, storyboard generation, generative-media requests, assembly, quality review, human approval, dry-run publishing, and analytics.
 
-## How to Use
+The lab scenario uses synthetic data and safe defaults. External publishing remains disabled or in dry-run/private mode unless a trainer authorises a controlled demonstration.
 
-1. Open the learner guide first and review the enterprise topology and lab setup checklist.
-2. Complete the labs in order because later labs reuse the campus, WAN, routing, security, and monitoring baselines from earlier labs.
-3. Use Cisco Packet Tracer for conceptual labs, or Cisco Modeling Labs, GNS3, EVE-NG, or physical equipment for advanced feature coverage.
-4. Save running configurations, topology screenshots, verification outputs, and troubleshooting notes after each lab.
-5. Record observations in a lab journal using symptoms, commands, findings, fixes, and validation.
+## Learning outcomes
 
-## Lab Catalogue
+By the end of the course, learners can:
 
-### Enterprise Architecture and Infrastructure
+1. Develop editing strategies and work plans that translate creative intent into a controlled agentic video-production contract.
+2. Assess AI-generated and edited footage against storytelling, technical, brand, provenance, and platform-compliance evidence.
+3. Develop remedial actions, approval controls, and n8n automations that support safe adoption of emerging video technologies.
 
-| Lab | Title | Skills Practised |
-| --- | --- | --- |
-| [Lab 01](labs/lab-01-enterprise-architecture-virtualization-design.md) | Enterprise Architecture, Virtualization, and Design | Two-tier/three-tier, campus, WAN, cloud, VRF, overlay/underlay concepts |
-| [Lab 02](labs/lab-02-campus-switching-vlans-stp-etherchannel.md) | Campus Switching, VLANs, STP, and EtherChannel | VLANs, trunks, Rapid PVST+, MST concepts, LACP, Layer 2 troubleshooting |
+## Topics covered
 
-### Routing and Services
+### 1. Creative strategy and end-to-end production
 
-| Lab | Title | Skills Practised |
-| --- | --- | --- |
-| [Lab 03](labs/lab-03-layer3-switching-ospf-eigrp.md) | Layer 3 Switching, OSPF, and EIGRP | SVIs, routed ports, OSPF, EIGRP concepts, route summarization |
-| [Lab 04](labs/lab-04-bgp-fhrp-nat-qos.md) | BGP Fundamentals, FHRP, NAT, and QoS | eBGP basics, HSRP/VRRP concepts, NAT/PAT, QoS classification and marking |
+- Production contracts, finish conditions, run state, and idempotency
+- Evidence research, source scoring, claim provenance, and bounded prompts
+- Timed scripts, storyboards, shot grammar, continuity, routing, cost, and latency controls
+- Coordinator, specialist-agent, deterministic-validator, and human-owner boundaries
 
-### Security, Wireless, and Assurance
+### 2. AI-assisted editing, storytelling, and quality assurance
 
-| Lab | Title | Skills Practised |
-| --- | --- | --- |
-| [Lab 05](labs/lab-05-enterprise-security-acls-aaa-device-hardening.md) | Enterprise Security, ACLs, AAA, and Device Hardening | Secure management, ACLs, AAA concepts, DHCP snooping, DAI, port security |
-| [Lab 06](labs/lab-06-wireless-enterprise-wlc-roaming-security.md) | Enterprise Wireless, WLC, Roaming, and Security | AP/WLC roles, CAPWAP, WLAN profiles, RF basics, WPA2/WPA3, roaming |
-| [Lab 07](labs/lab-07-network-assurance-telemetry-troubleshooting.md) | Network Assurance, Telemetry, and Troubleshooting | Syslog, SNMP, NetFlow concepts, IP SLA, SPAN, troubleshooting workflow |
+- Generative video, image-to-video, avatar, voice, music, and caption contracts
+- Asset manifests, rights status, checksums, and immutable versions
+- FFmpeg assembly, WebVTT captions, brand overlays, and ffprobe technical checks
+- Narrative QA, timecoded repair, and payload-hash human approval
 
-### Automation and Exam Review
+### 3. Workflow optimisation, compliance, and publishing
 
-| Lab | Title | Skills Practised |
-| --- | --- | --- |
-| [Lab 08](labs/lab-08-automation-controller-apis-exam-review.md) | Automation, Controller-Based Networking, APIs, and Exam Review | SDN, DNA Center concepts, REST APIs, JSON, Ansible concepts, exam readiness |
+- n8n triggers, expressions, sub-workflows, retries, timeouts, and secret isolation
+- SocialPost multipart upload contract and YouTube private-release controls
+- Synthetic-media disclosure, rights, privacy, observability, and publication reconciliation
+- Retention analysis, controlled experiments, and human `HOLD`, `ITERATE`, or `SCALE` decisions
 
-## References
+## Labs
 
-- Cisco CCNP Enterprise: https://learningnetwork.cisco.com/s/ccnp-enterprise
-- Course registration: https://www.tertiarycourses.com.sg/wsq-cisco-certified-network-professional-ccnp-for-encor-training.html
-- Cisco Enterprise certifications: https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/index.html
-- Cisco Packet Tracer: https://www.netacad.com/courses/packet-tracer
+Complete the labs in order. Every folder contains a detailed README, an importable `workflow.json`, a styled synthetic `mock-data.xlsx`, an instruction-and-prompts PDF, starter notes, expected output, and an evidence checklist.
 
-## Free Tools Used
+1. [Create the Video Production Contract and Research Backlog](labs/lab-01-production-contract-and-research-backlog/README.md)
+2. [Run Evidence Research and Build the Claim Register](labs/lab-02-evidence-research-and-claim-register/README.md)
+3. [Generate the Script, Storyboard and Video Prompts](labs/lab-03-research-to-script-storyboard/README.md)
+4. [Build the Generative Video, Voice and Music Asset Pack](labs/lab-04-generative-asset-request-pack/README.md)
+5. [Assemble and Probe the Captioned Vertical Video](labs/lab-05-assemble-captioned-vertical-video/README.md)
+6. [Run Quality Review and Human-in-the-Loop Approval](labs/lab-06-quality-review-and-human-approval/README.md)
+7. [Orchestrate the End-to-End SocialPost and YouTube Release](labs/lab-07-end-to-end-socialpost-youtube-release/README.md)
+8. [Analyse Performance and Build the Scaling Control Plan](labs/lab-08-analytics-feedback-and-scaling-control/README.md)
 
-- Cisco Packet Tracer
-- Cisco Modeling Labs, GNS3, or EVE-NG where available
-- Wireshark
-- PuTTY, Tera Term, or Windows Terminal
-- Draw.io / diagrams.net for architecture diagrams
-- Text editor for saved configurations and command outputs
+The connected path is:
+
+```text
+contract → research → script/storyboard → generative assets → assembly
+         → QA and human approval → SocialPost/YouTube dry-run → analytics
+```
+
+## Public package
+
+- [Learner Guide in Markdown](LG-Agentic%20AI%20for%20Video%20Creation.md)
+- [Eight self-contained lab folders](labs/)
+- Sanitised n8n workflow exports with no live credential values
+- Synthetic Excel data, bounded prompt PDFs, solution structures, and evidence checklists
+
+The editable slide deck, rendered course documents, and learner assessment papers are distributed through the authorised course Drive/LMS channels.
+
+## Distribution boundary
+
+This public repository intentionally excludes:
+
+- assessment answer keys and marking guides;
+- `.env` files, credentials, tokens, or private connection details;
+- source/reference material with restricted distribution;
+- build tooling, QA renders, archives, and trainer-private resources.
+
+Do not add live API keys to n8n JSON, prompts, workbooks, screenshots, issues, or pull requests. Configure approved credentials inside the target n8n environment.
+
+## Provider
+
+Developed by **Tertiary Infotech Academy Pte Ltd** (UEN `201200696W`).
+
+- [Course registration and current funding information](https://www.tertiarycourses.com.sg/wsq-agentic-ai-for-video-creation.html)
+- [SocialPost platform](https://socialmediapost.tertiaryinfotech.com/)
