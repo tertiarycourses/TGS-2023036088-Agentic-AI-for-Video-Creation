@@ -1,8 +1,0 @@
-{
-  "course_code": "TGS-2023036088",
-  "lab_id": 5,
-  "status": "PASS",
-  "deliverable": "vertical-master-v1.mp4, captions.vtt, edit-decision-list.xlsx and ffprobe.json",
-  "acceptance": "ffprobe reports one H.264 video stream, one AAC audio stream, 1080x1920, 30 fps and duration from 29.5 to 30.5 seconds.",
-  "dry_run": true
-}

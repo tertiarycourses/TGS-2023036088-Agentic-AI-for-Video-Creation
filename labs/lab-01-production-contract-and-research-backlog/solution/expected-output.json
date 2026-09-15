@@ -1,8 +1,0 @@
-{
-  "course_code": "TGS-2023036088",
-  "lab_id": 1,
-  "status": "PASS",
-  "deliverable": "production-contract.json and research-backlog.xlsx",
-  "acceptance": "READY is emitted only when all 18 production-contract fields are present and every high-risk claim has a research owner.",
-  "dry_run": true
-}

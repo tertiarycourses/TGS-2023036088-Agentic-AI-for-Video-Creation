@@ -1,8 +1,0 @@
-{
-  "course_code": "TGS-2023036088",
-  "lab_id": 6,
-  "status": "PASS",
-  "deliverable": "review-register.xlsx, repair-log.json and approval-ledger.json",
-  "acceptance": "No high-severity finding remains open; reviewer, timestamp, decision and payload_hash are recorded; the hash is rechecked immediately before release.",
-  "dry_run": true
-}
