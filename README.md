@@ -32,6 +32,15 @@ This course teaches a practical agentic video workflow using Hermes Desktop as t
 - Subagent role contracts, parallel work, durable Kanban dependencies and circuit breakers
 - Human approval hashes, private YouTube upload, idempotency and Hermes cron
 
+## Courseware
+
+- [Presentation deck (PPTX)](courseware/PPT-Agentic%20AI%20for%20Video%20Creation-v3.0.pptx)
+- [Presentation deck (PDF)](courseware/PPT-Agentic%20AI%20for%20Video%20Creation-v3.0.pdf)
+- [Learner Guide (DOCX)](courseware/LG-Agentic%20AI%20for%20Video%20Creation.docx)
+- [Learner Guide (PDF)](courseware/LG-Agentic%20AI%20for%20Video%20Creation.pdf)
+- [Lesson Plan (DOCX)](courseware/LP-Agentic%20AI%20for%20Video%20Creation.docx)
+- [Lesson Plan (PDF)](courseware/LP-Agentic%20AI%20for%20Video%20Creation.pdf)
+
 ## Labs
 
 1. [Set Up Hermes Desktop and Connect MiniMax M3](labs/lab-01-setup-hermes-and-connect-minimax-m3/README.md)
@@ -47,7 +56,7 @@ Each lab includes copy-ready prompts in Markdown and PDF, synthetic inputs, scri
 
 ## Public package boundary
 
-This repository is learner-facing. It may contain the Learner Guide Markdown, lab instructions, prompt PDFs, synthetic data, example skills, scripts and safe sample outputs. Assessments, answer keys, source references, credentials, private configuration, build tooling, archives and QA renders are excluded from the public repository.
+This repository is learner-facing. It contains the presentation deck, Learner Guide, Lesson Plan, Learner Guide Markdown, lab instructions, prompt PDFs, synthetic data, example skills, scripts and safe sample outputs. Assessments, answer keys, source references, credentials, private configuration, build tooling, archives and QA renders are excluded from the public repository.
 
 ## Provider
 

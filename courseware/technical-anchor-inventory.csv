@@ -1,0 +1,201 @@
+slide,section,title,anchor,status
+1,Course opening,Agentic AI for Video Creation,MODEL,TECHNICAL
+2,Course administration,Digital attendance via TRAQOM,CONFIG,TECHNICAL
+3,Course administration,Trainer profile,CONFIG,TECHNICAL
+4,Course administration,Dr Alfred Ang,CONFIG,TECHNICAL
+5,Course administration,Learner introduction,CONFIG,TECHNICAL
+6,Course administration,Working agreements,CONFIG,TECHNICAL
+7,Course administration,Course facts and competency context,CONFIG,TECHNICAL
+8,Course administration,Day 1 lesson plan,CONFIG,TECHNICAL
+9,Course administration,Day 2 lesson plan,CONFIG,TECHNICAL
+10,Course administration,Learning outcomes,CONFIG,TECHNICAL
+11,Course administration,Briefing for assessment,CONFIG,TECHNICAL
+12,Course administration,Assessment and funding,CONFIG,TECHNICAL
+13,Course administration,Assessment flow,CONFIG,TECHNICAL
+14,Course administration,Access the labs,CONFIG,TECHNICAL
+15,Topic 1,"Hermes Agent Setup, MiniMax M3 and Video Prompt Engineering",ARCH,TECHNICAL
+16,Topic 1,01 · Hermes Desktop runtime boundary: execution path,UI,TECHNICAL
+17,Topic 1,01 · Hermes Desktop runtime boundary: contract and control,UI,TECHNICAL
+18,Topic 1,01 · Hermes Desktop runtime boundary: evidence and decision,EVIDENCE,TECHNICAL
+19,Topic 1,02 · Shared desktop and CLI state: execution path,CONFIG,TECHNICAL
+20,Topic 1,02 · Shared desktop and CLI state: contract and control,CONFIG,TECHNICAL
+21,Topic 1,02 · Shared desktop and CLI state: evidence and decision,EVIDENCE,TECHNICAL
+22,Topic 1,03 · MiniMax M3 provider contract: execution path,CONFIG,TECHNICAL
+23,Topic 1,03 · MiniMax M3 provider contract: contract and control,CONFIG,TECHNICAL
+24,Topic 1,03 · MiniMax M3 provider contract: evidence and decision,EVIDENCE,TECHNICAL
+25,Topic 1,04 · Trial and quota verification: execution path,EVIDENCE,TECHNICAL
+26,Topic 1,04 · Trial and quota verification: contract and control,EVIDENCE,TECHNICAL
+27,Topic 1,04 · Trial and quota verification: evidence and decision,EVIDENCE,TECHNICAL
+28,Topic 1,05 · Credential isolation: execution path,CONFIG,TECHNICAL
+29,Topic 1,05 · Credential isolation: contract and control,CONFIG,TECHNICAL
+30,Topic 1,05 · Credential isolation: evidence and decision,EVIDENCE,TECHNICAL
+31,Topic 1,06 · Model capability routing: execution path,MODEL,TECHNICAL
+32,Topic 1,06 · Model capability routing: contract and control,MODEL,TECHNICAL
+33,Topic 1,06 · Model capability routing: evidence and decision,EVIDENCE,TECHNICAL
+34,Topic 1,07 · FRAME-CUT prompt contract: execution path,CONFIG,TECHNICAL
+35,Topic 1,07 · FRAME-CUT prompt contract: contract and control,CONFIG,TECHNICAL
+36,Topic 1,07 · FRAME-CUT prompt contract: evidence and decision,EVIDENCE,TECHNICAL
+37,Topic 1,08 · Format and finish: execution path,MODEL,TECHNICAL
+38,Topic 1,08 · Format and finish: contract and control,MODEL,TECHNICAL
+39,Topic 1,08 · Format and finish: evidence and decision,EVIDENCE,TECHNICAL
+40,Topic 1,"09 · Role, references and assets: execution path",EVIDENCE,TECHNICAL
+41,Topic 1,"09 · Role, references and assets: contract and control",EVIDENCE,TECHNICAL
+42,Topic 1,"09 · Role, references and assets: evidence and decision",EVIDENCE,TECHNICAL
+43,Topic 1,"10 · Action, motion and environment: execution path",MODEL,TECHNICAL
+44,Topic 1,"10 · Action, motion and environment: contract and control",MODEL,TECHNICAL
+45,Topic 1,"10 · Action, motion and environment: evidence and decision",EVIDENCE,TECHNICAL
+46,Topic 1,11 · Continuity and negative constraints: execution path,EVIDENCE,TECHNICAL
+47,Topic 1,11 · Continuity and negative constraints: contract and control,EVIDENCE,TECHNICAL
+48,Topic 1,11 · Continuity and negative constraints: evidence and decision,EVIDENCE,TECHNICAL
+49,Topic 1,12 · Structured shot-plan output: execution path,CODE,TECHNICAL
+50,Topic 1,12 · Structured shot-plan output: contract and control,CODE,TECHNICAL
+51,Topic 1,12 · Structured shot-plan output: evidence and decision,EVIDENCE,TECHNICAL
+52,Topic 1,13 · Simple video agent loop: execution path,ARCH,TECHNICAL
+53,Topic 1,13 · Simple video agent loop: contract and control,ARCH,TECHNICAL
+54,Topic 1,13 · Simple video agent loop: evidence and decision,EVIDENCE,TECHNICAL
+55,Topic 1,"14 · Cost, latency and stop rules: execution path",FORMULA,TECHNICAL
+56,Topic 1,"14 · Cost, latency and stop rules: contract and control",FORMULA,TECHNICAL
+57,Topic 1,"14 · Cost, latency and stop rules: evidence and decision",EVIDENCE,TECHNICAL
+58,Topic 1,Boundary map: agent reasoning versus deterministic control,ARCH,TECHNICAL
+59,Topic 1,"State model: READY, BLOCKED, REPAIR and APPROVED",CONFIG,TECHNICAL
+60,Topic 1,Evidence chain: source → asset → approval → external id,EVIDENCE,TECHNICAL
+61,Topic 1,"Failure taxonomy: transient, contract, policy and human-decision",MODEL,TECHNICAL
+62,Topic 1,Evidence coverage closes the release gap,FORMULA,TECHNICAL
+63,Topic 1,Budget control contains retry amplification,FORMULA,TECHNICAL
+64,Topic 1,Stage latency reveals the optimisation target,FORMULA,TECHNICAL
+65,Lab 01,Lab 01 · Set Up Hermes Desktop and Connect MiniMax M3,CONFIG,TECHNICAL
+66,Lab 01,Lab 01 · Hermes execution contract,ARCH,TECHNICAL
+67,Lab 01,Lab 01 · evidence and failure gates,EVIDENCE,TECHNICAL
+68,Lab 02,Lab 02 · Prompt Hermes to Create a Simple Video,CONFIG,TECHNICAL
+69,Lab 02,Lab 02 · Hermes execution contract,ARCH,TECHNICAL
+70,Lab 02,Lab 02 · evidence and failure gates,EVIDENCE,TECHNICAL
+71,Lab 03,Lab 03 · Engineer Video Prompts with FRAME-CUT,CONFIG,TECHNICAL
+72,Lab 03,Lab 03 · Hermes execution contract,ARCH,TECHNICAL
+73,Lab 03,Lab 03 · evidence and failure gates,EVIDENCE,TECHNICAL
+74,Topic 1,Topic 1 technical checkpoint,EVIDENCE,TECHNICAL
+75,Topic 1,Topic 1 transfer challenge,EVIDENCE,TECHNICAL
+76,Topic 2,"Video Tools, Hermes Skills and Custom Brand Production",ARCH,TECHNICAL
+77,Topic 2,01 · Tool versus skill decision: execution path,MODEL,TECHNICAL
+78,Topic 2,01 · Tool versus skill decision: contract and control,MODEL,TECHNICAL
+79,Topic 2,01 · Tool versus skill decision: evidence and decision,EVIDENCE,TECHNICAL
+80,Topic 2,02 · Hermes skill anatomy: execution path,CONFIG,TECHNICAL
+81,Topic 2,02 · Hermes skill anatomy: contract and control,CONFIG,TECHNICAL
+82,Topic 2,02 · Hermes skill anatomy: evidence and decision,EVIDENCE,TECHNICAL
+83,Topic 2,03 · Skill discovery and progressive loading: execution path,EVIDENCE,TECHNICAL
+84,Topic 2,03 · Skill discovery and progressive loading: contract and control,EVIDENCE,TECHNICAL
+85,Topic 2,03 · Skill discovery and progressive loading: evidence and decision,EVIDENCE,TECHNICAL
+86,Topic 2,04 · Remotion composition contract: execution path,CODE,TECHNICAL
+87,Topic 2,04 · Remotion composition contract: contract and control,CODE,TECHNICAL
+88,Topic 2,04 · Remotion composition contract: evidence and decision,EVIDENCE,TECHNICAL
+89,Topic 2,05 · Manim explanatory scene: execution path,CODE,TECHNICAL
+90,Topic 2,05 · Manim explanatory scene: contract and control,CODE,TECHNICAL
+91,Topic 2,05 · Manim explanatory scene: evidence and decision,EVIDENCE,TECHNICAL
+92,Topic 2,06 · Higgsfield shot request: execution path,CONFIG,TECHNICAL
+93,Topic 2,06 · Higgsfield shot request: contract and control,CONFIG,TECHNICAL
+94,Topic 2,06 · Higgsfield shot request: evidence and decision,EVIDENCE,TECHNICAL
+95,Topic 2,07 · FFmpeg deterministic assembly: execution path,CODE,TECHNICAL
+96,Topic 2,07 · FFmpeg deterministic assembly: contract and control,CODE,TECHNICAL
+97,Topic 2,07 · FFmpeg deterministic assembly: evidence and decision,EVIDENCE,TECHNICAL
+98,Topic 2,08 · Tool permission boundary: execution path,CONFIG,TECHNICAL
+99,Topic 2,08 · Tool permission boundary: contract and control,CONFIG,TECHNICAL
+100,Topic 2,08 · Tool permission boundary: evidence and decision,EVIDENCE,TECHNICAL
+101,Topic 2,09 · Asset provenance and checksum: execution path,EVIDENCE,TECHNICAL
+102,Topic 2,09 · Asset provenance and checksum: contract and control,EVIDENCE,TECHNICAL
+103,Topic 2,09 · Asset provenance and checksum: evidence and decision,EVIDENCE,TECHNICAL
+104,Topic 2,10 · Brand token system: execution path,MODEL,TECHNICAL
+105,Topic 2,10 · Brand token system: contract and control,MODEL,TECHNICAL
+106,Topic 2,10 · Brand token system: evidence and decision,EVIDENCE,TECHNICAL
+107,Topic 2,11 · Tone and style controls: execution path,MODEL,TECHNICAL
+108,Topic 2,11 · Tone and style controls: contract and control,MODEL,TECHNICAL
+109,Topic 2,11 · Tone and style controls: evidence and decision,EVIDENCE,TECHNICAL
+110,Topic 2,12 · Custom brand-video skill: execution path,CONFIG,TECHNICAL
+111,Topic 2,12 · Custom brand-video skill: contract and control,CONFIG,TECHNICAL
+112,Topic 2,12 · Custom brand-video skill: evidence and decision,EVIDENCE,TECHNICAL
+113,Topic 2,13 · Technical video quality gate: execution path,EVIDENCE,TECHNICAL
+114,Topic 2,13 · Technical video quality gate: contract and control,EVIDENCE,TECHNICAL
+115,Topic 2,13 · Technical video quality gate: evidence and decision,EVIDENCE,TECHNICAL
+116,Topic 2,14 · Repair and versioned evidence: execution path,EVIDENCE,TECHNICAL
+117,Topic 2,14 · Repair and versioned evidence: contract and control,EVIDENCE,TECHNICAL
+118,Topic 2,14 · Repair and versioned evidence: evidence and decision,EVIDENCE,TECHNICAL
+119,Topic 2,Boundary map: agent reasoning versus deterministic control,ARCH,TECHNICAL
+120,Topic 2,"State model: READY, BLOCKED, REPAIR and APPROVED",CONFIG,TECHNICAL
+121,Topic 2,Evidence chain: source → asset → approval → external id,EVIDENCE,TECHNICAL
+122,Topic 2,"Failure taxonomy: transient, contract, policy and human-decision",MODEL,TECHNICAL
+123,Topic 2,Evidence coverage closes the release gap,FORMULA,TECHNICAL
+124,Topic 2,Budget control contains retry amplification,FORMULA,TECHNICAL
+125,Topic 2,Stage latency reveals the optimisation target,FORMULA,TECHNICAL
+126,Lab 04,Lab 04 · Install Video Tools and Hermes Skills,CONFIG,TECHNICAL
+127,Lab 04,Lab 04 · Hermes execution contract,ARCH,TECHNICAL
+128,Lab 04,Lab 04 · evidence and failure gates,EVIDENCE,TECHNICAL
+129,Lab 05,Lab 05 · Create a Custom Branded Video Skill,CONFIG,TECHNICAL
+130,Lab 05,Lab 05 · Hermes execution contract,ARCH,TECHNICAL
+131,Lab 05,Lab 05 · evidence and failure gates,EVIDENCE,TECHNICAL
+132,Topic 2,Topic 2 technical checkpoint,EVIDENCE,TECHNICAL
+133,Topic 2,Topic 2 transfer challenge,EVIDENCE,TECHNICAL
+134,Topic 3,"Multi-Agent Kanban, YouTube Release and Scheduled Publishing",ARCH,TECHNICAL
+135,Topic 3,01 · Agent role contract: execution path,CONFIG,TECHNICAL
+136,Topic 3,01 · Agent role contract: contract and control,CONFIG,TECHNICAL
+137,Topic 3,01 · Agent role contract: evidence and decision,EVIDENCE,TECHNICAL
+138,Topic 3,02 · Research agent: execution path,EVIDENCE,TECHNICAL
+139,Topic 3,02 · Research agent: contract and control,EVIDENCE,TECHNICAL
+140,Topic 3,02 · Research agent: evidence and decision,EVIDENCE,TECHNICAL
+141,Topic 3,03 · Video production agent: execution path,ARCH,TECHNICAL
+142,Topic 3,03 · Video production agent: contract and control,ARCH,TECHNICAL
+143,Topic 3,03 · Video production agent: evidence and decision,EVIDENCE,TECHNICAL
+144,Topic 3,04 · Independent review agent: execution path,EVIDENCE,TECHNICAL
+145,Topic 3,04 · Independent review agent: contract and control,EVIDENCE,TECHNICAL
+146,Topic 3,04 · Independent review agent: evidence and decision,EVIDENCE,TECHNICAL
+147,Topic 3,05 · Upload agent: execution path,CONFIG,TECHNICAL
+148,Topic 3,05 · Upload agent: contract and control,CONFIG,TECHNICAL
+149,Topic 3,05 · Upload agent: evidence and decision,EVIDENCE,TECHNICAL
+150,Topic 3,06 · Delegation context contract: execution path,ARCH,TECHNICAL
+151,Topic 3,06 · Delegation context contract: contract and control,ARCH,TECHNICAL
+152,Topic 3,06 · Delegation context contract: evidence and decision,EVIDENCE,TECHNICAL
+153,Topic 3,07 · Parallel work and join: execution path,ARCH,TECHNICAL
+154,Topic 3,07 · Parallel work and join: contract and control,ARCH,TECHNICAL
+155,Topic 3,07 · Parallel work and join: evidence and decision,EVIDENCE,TECHNICAL
+156,Topic 3,08 · Durable Hermes Kanban: execution path,UI,TECHNICAL
+157,Topic 3,08 · Durable Hermes Kanban: contract and control,UI,TECHNICAL
+158,Topic 3,08 · Durable Hermes Kanban: evidence and decision,EVIDENCE,TECHNICAL
+159,Topic 3,09 · Kanban status and circuit breaker: execution path,EVIDENCE,TECHNICAL
+160,Topic 3,09 · Kanban status and circuit breaker: contract and control,EVIDENCE,TECHNICAL
+161,Topic 3,09 · Kanban status and circuit breaker: evidence and decision,EVIDENCE,TECHNICAL
+162,Topic 3,10 · Human approval with payload hash: execution path,CONFIG,TECHNICAL
+163,Topic 3,10 · Human approval with payload hash: contract and control,CONFIG,TECHNICAL
+164,Topic 3,10 · Human approval with payload hash: evidence and decision,EVIDENCE,TECHNICAL
+165,Topic 3,11 · YouTube videos.insert contract: execution path,CODE,TECHNICAL
+166,Topic 3,11 · YouTube videos.insert contract: contract and control,CODE,TECHNICAL
+167,Topic 3,11 · YouTube videos.insert contract: evidence and decision,EVIDENCE,TECHNICAL
+168,Topic 3,12 · Publishing idempotency: execution path,CONFIG,TECHNICAL
+169,Topic 3,12 · Publishing idempotency: contract and control,CONFIG,TECHNICAL
+170,Topic 3,12 · Publishing idempotency: evidence and decision,EVIDENCE,TECHNICAL
+171,Topic 3,13 · Hermes cron job contract: execution path,CONFIG,TECHNICAL
+172,Topic 3,13 · Hermes cron job contract: contract and control,CONFIG,TECHNICAL
+173,Topic 3,13 · Hermes cron job contract: evidence and decision,EVIDENCE,TECHNICAL
+174,Topic 3,14 · Scheduled release operations: execution path,EVIDENCE,TECHNICAL
+175,Topic 3,14 · Scheduled release operations: contract and control,EVIDENCE,TECHNICAL
+176,Topic 3,14 · Scheduled release operations: evidence and decision,EVIDENCE,TECHNICAL
+177,Topic 3,Boundary map: agent reasoning versus deterministic control,ARCH,TECHNICAL
+178,Topic 3,"State model: READY, BLOCKED, REPAIR and APPROVED",CONFIG,TECHNICAL
+179,Topic 3,Evidence chain: source → asset → approval → external id,EVIDENCE,TECHNICAL
+180,Topic 3,"Failure taxonomy: transient, contract, policy and human-decision",MODEL,TECHNICAL
+181,Topic 3,Evidence coverage closes the release gap,FORMULA,TECHNICAL
+182,Topic 3,Budget control contains retry amplification,FORMULA,TECHNICAL
+183,Topic 3,Stage latency reveals the optimisation target,FORMULA,TECHNICAL
+184,Topic 3,QA score rises after targeted repair,FORMULA,TECHNICAL
+185,Lab 06,Lab 06 · Build the Multi-Agent Video Workflow,CONFIG,TECHNICAL
+186,Lab 06,Lab 06 · Hermes execution contract,ARCH,TECHNICAL
+187,Lab 06,Lab 06 · evidence and failure gates,EVIDENCE,TECHNICAL
+188,Lab 07,Lab 07 · Orchestrate Kanban Review and YouTube Upload,CONFIG,TECHNICAL
+189,Lab 07,Lab 07 · Hermes execution contract,ARCH,TECHNICAL
+190,Lab 07,Lab 07 · evidence and failure gates,EVIDENCE,TECHNICAL
+191,Lab 08,Lab 08 · Schedule Controlled Video Publishing with Hermes Cron,CONFIG,TECHNICAL
+192,Lab 08,Lab 08 · Hermes execution contract,ARCH,TECHNICAL
+193,Lab 08,Lab 08 · evidence and failure gates,EVIDENCE,TECHNICAL
+194,Course closing,Course achievement map,ARCH,TECHNICAL
+195,Course administration,Access the learning platform,CONFIG,TECHNICAL
+196,Course administration,Release controls that must remain intact,CONFIG,TECHNICAL
+197,Course administration,Assessment reminder,CONFIG,TECHNICAL
+198,Course administration,Assessment flow,CONFIG,TECHNICAL
+199,Course administration,Digital attendance is mandatory,CONFIG,TECHNICAL
+200,Course closing,Thank you,EVIDENCE,TECHNICAL
