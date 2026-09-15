@@ -1,41 +1,38 @@
 # Agentic AI for Video Creation
 
-Build an evidence-led video production system in Hermes Agent, from MiniMax M3 setup and FRAME-CUT prompt engineering to custom video skills, multi-agent Kanban review, private YouTube upload and controlled scheduling.
+Learn to create videos with Hermes Agent: start with a simple prompt, improve the result with tools and skills, coordinate a multi-agent team, and produce a consistent one-minute micro-drama series.
 
 | Course detail | Information |
 |---|---|
 | Course code | `TGS-2023036088` |
 | Programme | WSQ |
 | Duration | 2 days / 16 training hours plus 2 hours assessment |
-| Version | v3.0, 15 September 2026 |
+| Version | v4.0, 16 September 2026 |
 | Registration | [View course details and register](https://www.tertiarycourses.com.sg/wsq-agentic-ai-for-video-creation.html) |
 | Funding | Up to 70% for eligible learners and employers; eligibility, funding validity and terms apply. |
 
 ## About the course
 
-This course teaches a practical agentic video workflow using Hermes Desktop as the operating environment and MiniMax M3 as the primary reasoning model. Learners turn a creative brief into structured prompts, use specialist video tools and reusable Hermes skills, create a custom branded video, coordinate research, production, review and upload roles, and prepare a governed publishing schedule.
+This beginner-friendly course focuses on how to create and improve videos, not low-level implementation detail. Learners install Hermes Desktop, connect MiniMax M3, write stronger video prompts, choose useful tools and reusable skills, organise five creative agents on Kanban, prepare a private YouTube upload, and create a one-minute micro-drama pilot with consistent characters and storyboards.
 
 ## Learning outcomes
 
-- Develop an editing strategy and work plan in Hermes Agent using MiniMax M3, structured video prompts and governed tool selection.
-- Create and customise an evidence-backed video with Hermes skills, Remotion, Manim, Higgsfield-compatible requests and deterministic media checks.
-- Orchestrate research, production, review and YouTube release agents through a durable Kanban board and controlled scheduled publishing.
+- Explain the agentic loop, set up Hermes Agent with MiniMax M3, and create a first short video from a clear prompt.
+- Improve the first video with suitable tools, reusable skills, branding, tone and style guidance.
+- Coordinate Researcher, Scriptwriter, Video Creator, Auditor and YouTube Publisher agents on Kanban and schedule the workflow.
+- Create a consistent one-minute micro-drama using a series bible, character bible and six-shot storyboard.
 
 ## Topics covered
 
-- Hermes Desktop installation, diagnostics, shared desktop/CLI state and credential isolation
-- MiniMax M3 connection, live trial/quota verification and fallback planning
-- FRAME-CUT video prompt engineering and strict shot-plan JSON
-- Remotion, Manim, Higgsfield and FFmpeg routing
-- Hermes skill discovery, authoring, testing and custom brand-video skills
-- Brand, tone, style, continuity, rights, technical QA and repair evidence
-- Subagent role contracts, parallel work, durable Kanban dependencies and circuit breakers
-- Human approval hashes, private YouTube upload, idempotency and Hermes cron
+- Topic 1: AI agents, the agentic loop, Hermes installation, MiniMax M3 and practical video prompt engineering
+- Topic 2: tools and skills, Remotion, Manim, Higgsfield, reusable video styles and improving the first video
+- Topic 3: five Hermes profiles, Kanban coordination, private YouTube publishing and scheduling
+- Topic 4: story and character consistency, six-shot storyboarding and a one-minute micro-drama series
 
 ## Courseware
 
-- [Presentation deck (PPTX)](courseware/PPT-Agentic%20AI%20for%20Video%20Creation-v3.0.pptx)
-- [Presentation deck (PDF)](courseware/PPT-Agentic%20AI%20for%20Video%20Creation-v3.0.pdf)
+- [Presentation deck (PPTX)](courseware/PPT-Agentic%20AI%20for%20Video%20Creation-v4.0.pptx)
+- [Presentation deck (PDF)](courseware/PPT-Agentic%20AI%20for%20Video%20Creation-v4.0.pdf)
 - [Learner Guide (DOCX)](courseware/LG-Agentic%20AI%20for%20Video%20Creation.docx)
 - [Learner Guide (PDF)](courseware/LG-Agentic%20AI%20for%20Video%20Creation.pdf)
 - [Lesson Plan (DOCX)](courseware/LP-Agentic%20AI%20for%20Video%20Creation.docx)
@@ -43,16 +40,12 @@ This course teaches a practical agentic video workflow using Hermes Desktop as t
 
 ## Labs
 
-1. [Set Up Hermes Desktop and Connect MiniMax M3](labs/lab-01-setup-hermes-and-connect-minimax-m3/README.md)
-2. [Prompt Hermes to Create a Simple Video](labs/lab-02-prompt-hermes-to-create-a-simple-video/README.md)
-3. [Engineer Video Prompts with FRAME-CUT](labs/lab-03-engineer-video-prompts-with-frame-cut/README.md)
-4. [Install Video Tools and Hermes Skills](labs/lab-04-install-video-tools-and-skills/README.md)
-5. [Create a Custom Branded Video Skill](labs/lab-05-create-custom-branded-video-skill/README.md)
-6. [Build the Multi-Agent Video Workflow](labs/lab-06-build-multi-agent-video-workflow/README.md)
-7. [Orchestrate Kanban Review and YouTube Upload](labs/lab-07-orchestrate-kanban-review-and-youtube-upload/README.md)
-8. [Schedule Controlled Video Publishing with Hermes Cron](labs/lab-08-schedule-controlled-video-publishing/README.md)
+1. [Create Your First Video with Hermes](labs/lab-01-create-first-video-with-hermes/README.md)
+2. [Improve the Video with Tools and Skills](labs/lab-02-improve-video-with-tools-and-skills/README.md)
+3. [Improve the Video with a Multi-Agent Team](labs/lab-03-multi-agent-video-kanban-youtube-schedule/README.md)
+4. [Create a One-Minute Micro-Drama Episode](labs/lab-04-create-one-minute-micro-drama-series/README.md)
 
-Each lab includes copy-ready prompts in Markdown and PDF, synthetic inputs, scripts or configuration, an evidence checklist and `verify.py`. The sample YouTube request defaults to private and scheduled publishing starts paused.
+Each lab includes copy-ready prompt examples in Markdown and PDF, starter templates, sample creative data, a review checklist and a demonstration video. Practice YouTube uploads remain private and scheduled publishing starts paused.
 
 ## Public package boundary
 
