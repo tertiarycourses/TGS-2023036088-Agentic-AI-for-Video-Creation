@@ -1,5 +1,18 @@
 # Courseware Changelog
 
+## v5.0 - 8 October 2026
+
+- Realigned to the approved Course Proposal and course page: three Learning Units (LU1-LU3) and Learning Outcomes LO1-LO3 verbatim; TSC Video Editing-4 (MED-MPN-4005-1.1) Knowledge K1-K5 and Abilities A1-A7 now stated on the slides (Learning Outcomes, K and A list slides, a per-topic LO/K/A slide) and in every document.
+- Topics renamed to the published outline: Creative Strategy and End-to-End Video Production with Agentic AI; AI-Assisted Video Editing, Storytelling and Quality Assurance; Workflow Optimisation, Industry Compliance and Emerging Video Technologies.
+- New content: history of AI; agentic AI vs AI agents; anatomy of a single AI agent; principles of video creation (story structure, script, storyboard, shot sizes, angles and movement, characters, composition, sound, captions); quality issues; edit types; editing standards (legal and broadcast); post-production work plans; the Flova video agent (Elements, Creative Brief, checkpoints, credits, micro-drama structure); story and technical review; parameters and solution types; Hermes Agent (install, skills, Skills Hub, plugins, MCP, profiles, SOUL.md, Kanban, cron); connecting Flova through its Agent CLI; industry standards; remedial action plans; emerging technologies and adoption.
+- Six connected labs on one financial-planning micro-drama series (Kopi & Coins: "The Rainy-Day Tin", "Daniel's Bonus"), each with README, prompts, templates, samples and evidence checklist (MD + PDF).
+- Deck redesigned (142 slides) on the design system shared with Agentic AI Applications with Codex; house admin slides reused; speaker notes carry the Learner Guide explanations.
+- New Facilitator Guide and Assessment Plan; the AP annexes carry the WA and PP questions, model answers, minimum evidence and marking rubrics.
+- Assessment v9: WA 5 questions (K1-K5), PP 3 tasks (A1-A7 — A7 was unassessed in v6/v8); Competent / Not Yet Competent.
+- v4.0 deck, documents, labs, build scripts and images archived locally.
+
+Affected artifacts: PPT/PDF, LP, LG (DOCX/PDF/Markdown), FG, AP, assessments, labs, README.
+
 ## v4.0 - 16 September 2026
 
 - Simplified the two-day course around practical video creation and removed low-level contracts, schemas, hashes, codecs and implementation metrics from the PPT.

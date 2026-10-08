@@ -1,55 +1,94 @@
 # Agentic AI for Video Creation
 
-Learn to create videos with Hermes Agent: start with a simple prompt, improve the result with tools and skills, coordinate a multi-agent team, and produce a consistent one-minute micro-drama series.
+Plan, make and scale short-form video with AI agents. Learners plan a micro-drama with a single AI agent, produce and refine it with the Flova video agent, and then run a studio pipeline with a team of Hermes agents. The whole course follows one story about money planning.
 
 | Course detail | Information |
 |---|---|
 | Course code | `TGS-2023036088` |
 | Programme | WSQ |
-| Duration | 2 days / 16 training hours plus 2 hours assessment |
-| Version | v4.0, 16 September 2026 |
+| TSC | Video Editing-4 (`MED-MPN-4005-1.1`), Skills Framework for Media |
+| Duration | 2 days, 16 hours (14 training hours + 2 assessment hours) |
+| Class time | 9:30 AM – 6:30 PM |
+| Version | v5.0, 8 October 2026 |
 | Registration | [View course details and register](https://www.tertiarycourses.com.sg/wsq-agentic-ai-for-video-creation.html) |
-| Funding | Up to 70% for eligible learners and employers; eligibility, funding validity and terms apply. |
+| Funding | Up to 70% SkillsFuture funding for eligible Singapore Citizens and PRs (50% baseline; 70% for SMEs and learners aged 40 and above). Eligibility and terms apply. |
 
 ## About the course
 
-This beginner-friendly course focuses on how to create and improve videos, not low-level implementation detail. Learners install Hermes Desktop, connect MiniMax M3, write stronger video prompts, choose useful tools and reusable skills, organise five creative agents on Kanban, prepare a private YouTube upload, and create a one-minute micro-drama pilot with consistent characters and storyboards.
+This WSQ course is mapped to the Video Editing TSC. It teaches media professionals, content creators and marketers to plan, produce, review and scale short-form video with agentic AI. Learners use three kinds of agent: a single chat agent to plan the video, the Flova video agent to make and refine it, and a team of Hermes agents to run a repeatable, compliant pipeline.
 
 ## Learning outcomes
 
-- Explain the agentic loop, set up Hermes Agent with MiniMax M3, and create a first short video from a clear prompt.
-- Improve the first video with suitable tools, reusable skills, branding, tone and style guidance.
-- Coordinate Researcher, Scriptwriter, Video Creator, Auditor and YouTube Publisher agents on Kanban and schedule the workflow.
-- Create a consistent one-minute micro-drama using a series bible, character bible and six-shot storyboard.
+- **LO1:** Develop editing strategies and work plans to achieve creative vision.
+- **LO2:** Assess edited footage to enhance storytelling and ensure technical compliance.
+- **LO3:** Develop remedial actions to ensure industry compliance and facilitate the adoption of new technologies in visual editing.
 
 ## Topics covered
 
-- Topic 1: AI agents, the agentic loop, Hermes installation, MiniMax M3 and practical video prompt engineering
-- Topic 2: tools and skills, Remotion, Manim, Higgsfield, reusable video styles and improving the first video
-- Topic 3: five Hermes profiles, Kanban coordination, private YouTube publishing and scheduling
-- Topic 4: story and character consistency, six-shot storyboarding and a one-minute micro-drama series
+1. **Creative Strategy and End-to-End Video Production with Agentic AI** covers:
+   - a short history of AI, and agentic AI vs AI agents
+   - a single AI agent
+   - principles of video creation: story, script, storyboard, characters, shots, sound and captions
+   - quality issues, editing standards and work plans
+2. **AI-Assisted Video Editing, Storytelling and Quality Assurance** covers:
+   - the Flova video agent: Elements, the Creative Brief and checkpoints
+   - reviewing footage for story and emotion
+   - technical parameters, and how to fix quality issues
+3. **Workflow Optimisation, Industry Compliance and Emerging Video Technologies** covers:
+   - Hermes Agent, skills and plugins, and connecting Flova
+   - industry standards and remedial actions
+   - a multi-agent studio on Kanban, and adopting new technologies
+
+## Labs: one studio, one story
+
+Kopi & Coins is a fictitious Singapore studio that makes 60-second money stories. Episode 1 is *The Rainy-Day Tin*; Episode 2 is *Daniel's Bonus*.
+
+| Lab | Agent | K & A |
+|---|---|---|
+| [01 · Plan the Story with a Single AI Agent](labs/lab-01-plan-the-story-with-one-agent/README.md) | ChatGPT, Claude or Gemini | K1, A1 |
+| [02 · Storyboard, Editing Standards and Work Plan](labs/lab-02-storyboard-standards-and-work-plan/README.md) | ChatGPT + spreadsheet | A2, A3 |
+| [03 · Create Episode 1 with the Flova Video Agent](labs/lab-03-create-episode-1-in-flova/README.md) | Flova | K2, A4 |
+| [04 · Review and Refine the Edit](labs/lab-04-review-and-refine-the-edit/README.md) | Flova | K2, K3, A4, A5 |
+| [05 · Hermes, Flova, Skills and a Compliance Review](labs/lab-05-hermes-flova-skills-and-compliance/README.md) | Hermes Agent + Flova CLI | K4, A6 |
+| [06 · A Multi-Agent Video Studio on Kanban](labs/lab-06-multi-agent-studio-on-kanban/README.md) | Hermes profiles + Kanban | K5, A7 |
+
+Each lab folder contains:
+- a README (Markdown and PDF)
+- copy-ready prompts
+- templates and sample outputs
+- an evidence checklist
 
 ## Courseware
 
-- [Presentation deck (PPTX)](courseware/PPT-Agentic%20AI%20for%20Video%20Creation-v4.0.pptx)
-- [Presentation deck (PDF)](courseware/PPT-Agentic%20AI%20for%20Video%20Creation-v4.0.pdf)
-- [Learner Guide (DOCX)](courseware/LG-Agentic%20AI%20for%20Video%20Creation.docx)
-- [Learner Guide (PDF)](courseware/LG-Agentic%20AI%20for%20Video%20Creation.pdf)
-- [Lesson Plan (DOCX)](courseware/LP-Agentic%20AI%20for%20Video%20Creation.docx)
-- [Lesson Plan (PDF)](courseware/LP-Agentic%20AI%20for%20Video%20Creation.pdf)
+- [Slide deck (PPTX)](courseware/PPT-Agentic%20AI%20for%20Video%20Creation-v5.0.pptx) · [PDF](courseware/PPT-Agentic%20AI%20for%20Video%20Creation-v5.0.pdf)
+- [Learner Guide (DOCX)](courseware/LG-Agentic%20AI%20for%20Video%20Creation.docx) · [PDF](courseware/LG-Agentic%20AI%20for%20Video%20Creation.pdf) · [Markdown](LG-Agentic%20AI%20for%20Video%20Creation.md)
+- [Lesson Plan (DOCX)](courseware/LP-Agentic%20AI%20for%20Video%20Creation.docx) · [PDF](courseware/LP-Agentic%20AI%20for%20Video%20Creation.pdf)
+- [Facilitator Guide (DOCX)](courseware/FG-Agentic%20AI%20for%20Video%20Creation.docx) · [PDF](courseware/FG-Agentic%20AI%20for%20Video%20Creation.pdf)
 
-## Labs
+## Assessment
 
-1. [Create Your First Video with Hermes](labs/lab-01-create-first-video-with-hermes/README.md)
-2. [Improve the Video with Tools and Skills](labs/lab-02-improve-video-with-tools-and-skills/README.md)
-3. [Improve the Video with a Multi-Agent Team](labs/lab-03-multi-agent-video-kanban-youtube-schedule/README.md)
-4. [Create a One-Minute Micro-Drama Episode](labs/lab-04-create-one-minute-micro-drama-series/README.md)
+The assessment is held on Day 2 from 4:30 to 6:30 PM:
+- **Written Assessment (SAQ):** 5 questions on K1–K5, 1 hour
+- **Practical Performance:** 3 tasks on A1–A7, 1 hour
 
-Each lab includes copy-ready prompt examples in Markdown and PDF, starter templates, sample creative data, a review checklist and a demonstration video. Practice YouTube uploads remain private and scheduled publishing starts paused.
+Both are open book. Results are recorded as Competent or Not Yet Competent.
 
 ## Public package boundary
 
-This repository is learner-facing. It contains the presentation deck, Learner Guide, Lesson Plan, Learner Guide Markdown, lab instructions, prompt PDFs, synthetic data, example skills, scripts and safe sample outputs. Assessments, answer keys, source references, credentials, private configuration, build tooling, archives and QA renders are excluded from the public repository.
+This repository is for learners and contains:
+- the slide deck
+- the Learner Guide, including its Markdown version
+- the Lesson Plan
+- the Facilitator Guide
+- the lab pack
+
+The following are kept private and are not published here:
+- assessment papers and answer keys
+- the Assessment Plan
+- source references
+- build tooling
+- archives
+- credentials
 
 ## Provider
 
