@@ -1050,7 +1050,7 @@ Episode 1 is made, reviewed and fixed.
 
 ## Topic 3 — Workflow Optimisation, Industry Compliance and Emerging Video Technologies
 
-Slides 98–137 · LU3 · **LO3:** Develop remedial actions to ensure industry compliance and facilitate the adoption of new technologies in visual editing.
+Slides 98–136 · LU3 · **LO3:** Develop remedial actions to ensure industry compliance and facilitate the adoption of new technologies in visual editing.
 
 **Knowledge:** K4 — Industry quality standards; K5 — Technologies that improve efficiency and quality of video edits
 
@@ -1556,19 +1556,6 @@ Two days, three kinds of agent, one series.
 1. **Plan · LO1** — One AI agent: brief, script, script review, storyboard, standards, work plan.
 1. **Make · LO2** — Flova: Elements, checkpoints, a rough cut; story and technical review; v2.
 1. **Scale · LO3** — Hermes: Flova skill, compliance review, remedies, a five-agent team, adoption.
-
-#### Practice Exam on Tertiary Exams
-
-Tertiary Exams (exams.tertiaryinfotech.com) hosts practice exams. There is no video-editing exam yet; the Claude Certified Associate — Foundations practice exam is the closest match, covering prompting, output evaluation, workflow integration and responsible use of AI agents. It is optional and separate from the WSQ assessment.
-
-exams.tertiaryinfotech.com/practice-exams/anthropic/anthropic-ccao-foundations
-
-![Figure](courseware/assets/lg/practice-exam.png)
-
-- **Related practice** — No video-editing exam is listed yet. CCAO-F practises the agent skills this course uses.
-- **What it covers** — Prompting, output evaluation, workflow integration and responsible use of AI.
-- **Practice or exam mode** — Explanations after each question, or a timed 120-minute mock.
-- **Free teaser** — Try ten questions free before you decide.
 
 ## Quick Command Reference
 
