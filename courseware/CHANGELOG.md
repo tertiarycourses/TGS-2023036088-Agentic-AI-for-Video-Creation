@@ -8,7 +8,7 @@
 - Six connected labs on one financial-planning micro-drama series (Kopi & Coins: "The Rainy-Day Tin", "Daniel's Bonus"), each with README, prompts, templates, samples and evidence checklist (MD + PDF).
 - Deck redesigned (142 slides) on the design system shared with Agentic AI Applications with Codex; house admin slides reused; speaker notes carry the Learner Guide explanations.
 - New Facilitator Guide and Assessment Plan; the AP annexes carry the WA and PP questions, model answers, minimum evidence and marking rubrics.
-- Assessment v9: WA 5 questions (K1-K5), PP 3 tasks (A1-A7 — A7 was unassessed in v6/v8); Competent / Not Yet Competent.
+- Assessment v10 (supersedes the v9 papers on Drive dated 26 Sep 2026): WA 5 questions (K1-K5), PP 3 tasks (A1-A7 — A7 was unassessed in v6/v8); Competent / Not Yet Competent.
 - v4.0 deck, documents, labs, build scripts and images archived locally.
 
 Affected artifacts: PPT/PDF, LP, LG (DOCX/PDF/Markdown), FG, AP, assessments, labs, README.
